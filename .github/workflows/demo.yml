@@ -45,7 +45,7 @@ jobs:
       - name: Get build artifacts
         uses: actions/download-artifact@v3
         with:
-          name: dist-filess
+          name: dist-files
       - name: Output contents
         run: ls
       - name: Output file name
